@@ -11,10 +11,10 @@ body {
     text-align: right;
 }
 .container img {
-    width: 100%;
+    width: 10%;
 }
-.container__more-info {
-    font-family: fantasy, cursive; 
+.container__more_info {
+    font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
@@ -58,7 +58,6 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h1,
 h3,
 label[for='new-task'] {
     color: #333;
