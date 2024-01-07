@@ -33,7 +33,7 @@ body {
     flex-grow: 1;
 }
 .task-list__task-row-wrapper {
-    display: flex;
+    /* display: flex; */
 }
 ul {
     margin: 0;

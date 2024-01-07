@@ -27,7 +27,7 @@ body {
     width: 500px;
     margin: 0 auto 0;
 }
-.task-list__task {
+.task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -138,11 +138,11 @@ ul li input[type=text] {
     display: none;
 }
 
-ul li.task-list__edit-mode input[type=text] {
+ul li.editMode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.task-list__edit-mode label {
+ul li.editMode label {
     display: none;
 }
