@@ -7,9 +7,6 @@ body {
 input,button{
     outline: none;
 }
-button:hover {
-    color: #3a3A3a;
-}
 /* Styles */
 .container {
     width: 500px;
@@ -58,10 +55,12 @@ button:hover {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-
+.btn:hover {
+    color: #3a3A3a;
+}
 /* Heading */
-.task-heading,
 .completed-heading,
+.task-heading,
 .task-label {
     color: #333;
     font-weight: 700;

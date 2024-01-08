@@ -4,13 +4,6 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-input,button{
-    outline: none;
-}
-button:hover {
-    color: #3a3A3a;
-}
-/* Styles */
 .container {
     width: 500px;
     margin: 0 auto;
@@ -47,9 +40,13 @@ button:hover {
     margin: 0;
     padding: 0px;
 }
-
-
-.btn {
+li, h3 {
+    list-style: none;
+}
+input,button{
+    outline: none;
+}
+button {
     background: none;
     border: 0px;
     color: #888;
@@ -58,11 +55,13 @@ button:hover {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-
+button:hover {
+    color: #3a3A3a;
+}
 /* Heading */
-.task-heading,
-.completed-heading,
-.task-label {
+h1,
+h3,
+label[for='new-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;

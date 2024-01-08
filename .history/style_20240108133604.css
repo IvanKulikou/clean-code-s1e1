@@ -49,7 +49,7 @@ button:hover {
 }
 
 
-.btn {
+button {
     background: none;
     border: 0px;
     color: #888;
@@ -60,9 +60,9 @@ button:hover {
 }
 
 /* Heading */
-.task-heading,
-.completed-heading,
-.task-label {
+h1,
+h3,
+label[for='new-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;

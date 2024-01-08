@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <title>Todo App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body>
   <header class="container">
@@ -12,20 +12,20 @@
 </header>
   <main class="task-list">
 
-      <label class="task-label" for="new-task">Add Item</label>
+      <label for="new-task">Add Item</label>
       <div class="task-list__task-row-wrapper">
         <input id="new-task" class="task" type="text">
-        <button class="task-list__add-button btn">Add</button>
+        <button class="task-list__add-button">Add</button>
       </div>
 
-    <h1 class="task-heading">Todo</h1>
+    <h1>Todo</h1>
     <ul id="incomplete-tasks" class="task-list__incomplete-tasks">
       <li class="task-list__task-item">
         <input type="checkbox" id="pay-bills">
         <label class="task-list__task" for="pay-bills">Pay Bills</label>
         <input type="text" class="task">
-        <button class="task-list__edit-button edit btn">Edit</button>
-        <button class="task-list__delete-button delete btn"><img src="./remove.svg"   alt="Remove icon">
+        <button class="task-list__edit-button edit">Edit</button>
+        <button class="task-list__delete-button delete"><img src="./remove.svg"   alt="Remove icon">
         </button>
       </li>
       <li class="task-list__edit-mode">
@@ -33,22 +33,22 @@
         <label class="task-list__task" for="go-shopping">Go Shopping
         </label>
         <input type="text" value="Go Shopping" class="task-list__task-input">
-        <button class="task-list__edit-button edit btn">Save</button>
-        <button class="task-list__delete-button delete btn"><img src="./remove.svg"
+        <button class="task-list__edit-button edit">Save</button>
+        <button class="task-list__delete-button delete"><img src="./remove.svg"
          alt="Remove icon">
         </button>
       </li>
     </ul>
-    <h3 class="completed-heading">Completed</h3>
+    <h3>Completed</h3>
     <ul id="completed-tasks" class="task-list__completed-tasks">
       <li class="task-list__task-item">
         <input type="checkbox" id="see-doctor" checked>
         <label class="task-list__task" for="see-doctor">See the Doctor
         </label>
         <input type="text" class="task-list__task-input">
-        <button class="task-list__edit-button edit btn">Edit</button>
-        <button class="task-list__delete-button delete btn">
-          <img src="./remove.svg" alt="Remove icon">
+        <button class="task-list__edit-button edit">Edit</button>
+        <button class="task-list__delete-button delete">
+          <img src="./remove.svg" alt="Remove icon">>
         </button>
       </li>
     </ul>

@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <title>Todo App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" media="screen" btn>
 </head>
 <body>
   <header class="container">
@@ -12,13 +12,13 @@
 </header>
   <main class="task-list">
 
-      <label class="task-label" for="new-task">Add Item</label>
+      <label for="new-task">Add Item</label>
       <div class="task-list__task-row-wrapper">
         <input id="new-task" class="task" type="text">
         <button class="task-list__add-button btn">Add</button>
       </div>
 
-    <h1 class="task-heading">Todo</h1>
+    <h1>Todo</h1>
     <ul id="incomplete-tasks" class="task-list__incomplete-tasks">
       <li class="task-list__task-item">
         <input type="checkbox" id="pay-bills">
@@ -39,7 +39,7 @@
         </button>
       </li>
     </ul>
-    <h3 class="completed-heading">Completed</h3>
+    <h3>Completed</h3>
     <ul id="completed-tasks" class="task-list__completed-tasks">
       <li class="task-list__task-item">
         <input type="checkbox" id="see-doctor" checked>
