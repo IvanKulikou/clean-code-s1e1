@@ -76,7 +76,7 @@ button:hover {
     text-transform: uppercase;
 }
 
-.custom-input {
+input[type="text"] {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -88,7 +88,7 @@ button:hover {
     font-family: Lato, sans-serif;
     color: #888;
 }
-.custom-input:focus {
+input[type="text"]:focus {
     color: #333;
 }
 

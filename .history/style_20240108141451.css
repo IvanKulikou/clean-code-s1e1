@@ -75,8 +75,22 @@ button:hover {
     margin: 0;
     text-transform: uppercase;
 }
-
-.custom-input {
+input[type="text"] {
+    margin: 0;
+    /* font-size: 18px; */
+    line-height: 18px;
+    height: 21px;
+    padding: 0 9px;
+    border: 1px solid #dDd;
+    background: #FFF;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+}
+input[type="text"]:focus {
+    color: #333;
+}
+/* input[type="text"] {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -88,9 +102,9 @@ button:hover {
     font-family: Lato, sans-serif;
     color: #888;
 }
-.custom-input:focus {
+input[type="text"]:focus {
     color: #333;
-}
+} */
 
 /* New Task */
 label[for='new-task'] {

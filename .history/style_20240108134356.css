@@ -60,7 +60,7 @@ button:hover {
 }
 
 .btn:hover {
-    color: #3a3a3a;
+    color: #3a3A3a;
 }
 
 /* Heading */
@@ -75,8 +75,7 @@ button:hover {
     margin: 0;
     text-transform: uppercase;
 }
-
-.custom-input {
+input[type="text"] {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -88,7 +87,7 @@ button:hover {
     font-family: Lato, sans-serif;
     color: #888;
 }
-.custom-input:focus {
+input[type="text"]:focus {
     color: #333;
 }
 

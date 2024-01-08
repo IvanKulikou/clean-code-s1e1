@@ -1,5 +1,10 @@
+
+
+
+
 var taskInput = document.getElementById("new-task");
 var addButton = document.getElementsByTagName("button")[0];
+console.log(addButton);
 var incompleteTaskHolder = document.getElementById("incomplete-tasks"); // <-- Corrected ID
 var completedTasksHolder = document.getElementById("completed-tasks");
 
@@ -17,12 +22,12 @@ var createNewTaskElement = function (taskString) {
 
     checkBox.type = "checkbox";
     editInput.type = "text";
-    editInput.className = "task";
+    editInput.className = "custom-input";
 
     editButton.innerText = "Edit";
-    editButton.className = "edit";
+    editButton.className = "edit btn";
 
-    deleteButton.className = "delete";
+    deleteButton.className = "delete btn";
     deleteButtonImg.src = './remove.svg';
     deleteButton.appendChild(deleteButtonImg);
 

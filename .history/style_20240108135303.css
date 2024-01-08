@@ -51,6 +51,19 @@ button:hover {
 
 .btn {
     background: none;
+    /* border: 0px; */
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #3a3A3a;
+}
+/* .btn {
+    background: none;
     border: 0px;
     color: #888;
     font-size: 15px;
@@ -60,9 +73,8 @@ button:hover {
 }
 
 .btn:hover {
-    color: #3a3a3a;
-}
-
+    color: #3a3A3a;
+} */
 /* Heading */
 .task-heading,
 .completed-heading,
@@ -75,8 +87,7 @@ button:hover {
     margin: 0;
     text-transform: uppercase;
 }
-
-.custom-input {
+input[type="text"] {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -88,7 +99,7 @@ button:hover {
     font-family: Lato, sans-serif;
     color: #888;
 }
-.custom-input:focus {
+input[type="text"]:focus {
     color: #333;
 }
 
