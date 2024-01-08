@@ -127,7 +127,9 @@ button:hover {
 
     width: 226px;
 }
-
+li > input[type="text"] {
+    width: 2260px;
+}
 button.delete img {
     height: 2em;
     transform: rotateZ(45deg);
