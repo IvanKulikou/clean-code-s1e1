@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Todo App</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css"media="screen" charset="utf-8">
+</head>
+<body>
+  <div class="container">
+    <img src="./eisenhower-matrix.jpg">
+    <a class="container__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+</div>
+  <div class="task-list">
+
+      <label for="new-task">Add Item</label>
+      <div class="task-list__task-row-wrapper">
+        <input id="new-task"class="task" type="text">
+        <button class="task-list__add-button">Add</button>
+      </div>
+
+    <h3>Todo</h3>
+    <ul id="incompleteTasks" class="task-list__incomplete-tasks">
+      <li class="task-list__task-item">
+        <input type="checkbox" id="pay-bills">
+        <label class="task-list__task" for="pay-bills">Pay Bills</label>
+        <input type="text" class="task">
+        <button class="task-list__edit-button edit">Edit</button>
+        <button class="task-list__delete-button delete"><img src="./remove.svg">
+        </button>
+      </li>
+      <li class="task-list__edit-mode">
+        <input type="checkbox" id="go-shopping">
+        <label class="task-list__task" for="go-shopping">Go Shopping
+        </label>
+        <input type="text" value="Go Shopping" class="task-list__task-input">
+        <button class="edit">Save</button>
+        <button class="delete"><img src="./remove.svg">
+        </button>
+      </li>
+    </ul>
+    <h3>Completed</h3>
+    <ul id="completed-tasks">
+      <li>
+        <input type="checkbox" checked>
+        <label class="task">See the Doctor</label>
+        <input type="text" class="task">
+        <button class="edit">Edit</button>
+        <button class="delete">
+          <img src="./remove.svg">
+        </button>
+      </li>
+    </ul>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
