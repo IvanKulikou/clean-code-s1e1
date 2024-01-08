@@ -101,7 +101,7 @@ button:hover {
     display: block;
     margin: 0 0 20px;
 } */
-#new-task {
+input#new-task {
     width: 318px;
 }
 
@@ -114,7 +114,9 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-
+li > * {
+    vertical-align: middle;
+}
 
 li > input[type="checkbox"] {
     margin: 0 10px;
