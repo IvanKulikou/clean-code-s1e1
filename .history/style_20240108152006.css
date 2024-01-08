@@ -120,12 +120,11 @@ button:hover {
 .custom-checkbox {
     margin: 0 10px;
 }
-.task-list__task {
+li > label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
-
-    width: 226px;
+    /* width: 226px; */
 }
 li > input[type="text"] {
     width: 226px;

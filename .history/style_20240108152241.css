@@ -123,8 +123,7 @@ button:hover {
 .task-list__task {
     padding-left: 10px;
     box-sizing: border-box;
-    font-size: 18px;
-
+    font-size: 218px;
     width: 226px;
 }
 li > input[type="text"] {

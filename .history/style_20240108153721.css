@@ -124,7 +124,7 @@ button:hover {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
-
+    color: red;
     width: 226px;
 }
 li > input[type="text"] {

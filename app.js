@@ -10,15 +10,18 @@ var completedTasksHolder = document.getElementById("completed-tasks");
 
 var createNewTaskElement = function (taskString) {
     var listItem = document.createElement("li");
+    listItem.className = "custom-li";
     var checkBox = document.createElement("input");
+    checkBox.className = "custom-checkbox";
     var label = document.createElement("label");
+    label.className = "task-list__task";
     var editInput = document.createElement("input");
     var editButton = document.createElement("button");
     var deleteButton = document.createElement("button");
     var deleteButtonImg = document.createElement("img");
 
     label.innerText = taskString;
-    label.className = 'task';
+    // label.className = 'task';
 
     checkBox.type = "checkbox";
     editInput.type = "text";
@@ -86,8 +89,8 @@ var taskIncomplete = function () {
 
 var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
     var checkBox = taskListItem.querySelector("input[type=checkbox]");
-    var editButton = taskListItem.querySelector("button.edit");
-    var deleteButton = taskListItem.querySelector("button.delete");
+    var editButton = taskListItem.querySelector(".edit");
+    var deleteButton = taskListItem.querySelector(".delete");
 
     editButton.onclick = editTask;
     deleteButton.onclick = deleteTask;

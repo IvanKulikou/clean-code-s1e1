@@ -118,13 +118,14 @@ button:hover {
 
 
 .custom-checkbox {
-    margin: 0 10px;
+    margin: 0 50px;
+
+    background-color: red;
 }
-.task-list__task {
+li > label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
-
     width: 226px;
 }
 li > input[type="text"] {
