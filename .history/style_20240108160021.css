@@ -127,16 +127,23 @@ button:hover {
 
     width: 226px;
 }
-.delete img {
+.task-list__delete-button{
+    transform: translateX(20px);
+    width: 44px;
+    transform: rotateZ(45deg);
+    transition: transform 200ms ease-in;
+}
+.task-list__delete-button:hover{
+    transform: rotateZ(0);
+}
+/* button.delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-
-.delete img:hover {
+button.delete img:hover {
     transform: rotateZ(0);
-}
-
+} */
 
 /* Completed */
 ul#completed-tasks label {

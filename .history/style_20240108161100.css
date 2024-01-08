@@ -127,13 +127,12 @@ button:hover {
 
     width: 226px;
 }
-.delete img {
+button.delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-
-.delete img:hover {
+button.delete img:hover {
     transform: rotateZ(0);
 }
 
